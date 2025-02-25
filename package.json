@@ -1,0 +1,35 @@
+{
+  "name": "flashcard-atudy-api",
+  "version": "1.0.0",
+  "description": "API that allows users to create, manage, and use flashcards for studying",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && npx tsc",
+    "predev": "npm run build",
+    "dev": "concurrently \"npx tsc -w\" \"nodemon dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomas-Wardoloff/flashcard-atudy-api.git"
+  },
+  "author": "Tomas Wardoloff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tomas-Wardoloff/flashcard-atudy-api/issues"
+  },
+  "homepage": "https://github.com/Tomas-Wardoloff/flashcard-atudy-api#readme",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "express": "^4.21.2",
+    "prisma": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  }
+}
