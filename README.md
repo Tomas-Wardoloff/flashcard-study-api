@@ -1,1 +1,1 @@
-# flashcard-atudy-api
+# flashcard-study-api
