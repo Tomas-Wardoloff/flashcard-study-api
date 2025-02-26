@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomas-Wardoloff/flashcard-atudy-api.git"
+    "url": "git+https://github.com/Tomas-Wardoloff/flashcard-study-api.git"
   },
   "author": "Tomas Wardoloff",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tomas-Wardoloff/flashcard-atudy-api/issues"
+    "url": "https://github.com/Tomas-Wardoloff/flashcard-study-api/issues"
   },
-  "homepage": "https://github.com/Tomas-Wardoloff/flashcard-atudy-api#readme",
+  "homepage": "https://github.com/Tomas-Wardoloff/flashcard-study-api#readme",
   "dependencies": {
     "@prisma/client": "^6.4.1",
     "express": "^4.21.2",
